@@ -1,0 +1,23 @@
+{
+    "name": "sunnyct/curl",
+    "type": "library",
+    "description": "CURL OOP library",
+    "keywords": ["api", "curl"],
+    "homepage": "https://github.com/sunnyct/curl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavlenko Eugeniy",
+            "email": "pavlenko.obs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SunNYCT\\CURL\\": "src/SunNYCT/CURL/"
+        }
+    }
+}
